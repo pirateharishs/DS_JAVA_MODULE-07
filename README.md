@@ -1,5 +1,5 @@
 # Ex6 Right Rotation LinkedList
-## DATE:03/09/2025
+## DATE: 22/08/25
 ## AIM:
 To write a Java  program to:
 Create a singly linked list.
@@ -18,8 +18,8 @@ Display the rotated linked list.
 ```
 /*
 Program to  Right Rotation LinkedList
-Developed by: SANJEEV RAJ.S
-RegisterNumber:  212223220096
+Developed by: HARISH S
+RegisterNumber:  212223230071
 */
 
 import java.util.Scanner;
@@ -81,22 +81,19 @@ class Node {
         this.next = null;
     }
 }
+
 ```
 
 ## Output:
 
 <img width="899" height="243" alt="image" src="https://github.com/user-attachments/assets/b2ff88ad-e7fb-4bc8-8f91-4b4e59cf9e59" />
 
-## Result:
-Thus, the C program to perfom right rotation on linked list is implemented successfully.
-
 # Ex7 Removal of Nodes with a Specific Value from a Linked List
-
+## DATE: 27/08/25
 ## AIM:
 To write a java  program that removes all nodes from a linked list whose value matches a given integer (val) and returns the new head of the modified linked list.
 
 ## Algorithm
-
 1. Start the program.
 2. Create dummy head.
 3. Set prev = dummy, curr = head.
@@ -104,13 +101,13 @@ To write a java  program that removes all nodes from a linked list whose value m
 5. Move curr each step.
 6. Return dummy.next as updated head.
 7. Stop the program.
-8. 
+
 ## Program:
 ```
 /*
 program that removes all nodes from a linked list whose value matches a given integer (val) and returns the new head of the modified linked list.
-Developed by:SANJEEV RAJ.S
-RegisterNumber:  212223220096
+Developed by: HARISH S
+RegisterNumber:  212223230071
 */
 
 import java.util.*;
@@ -183,6 +180,7 @@ public class Main {
         scanner.close();
     }
 }
+
 ```
 
 ## Output:
@@ -193,12 +191,12 @@ public class Main {
 The java program successfully removes all nodes with the specified value (val) from the linked list and returns the new head.
 
 # Ex8 Detection of Cycle and Finding the Starting Node in a Linked List
-
+## DATE: 29/08/25
 ## AIM:
 To write a program that detects a cycle in a linked list and returns the node where the cycle begins.
 If there is no cycle, the program should return null without modifying the linked list.
 ## Algorithm
-
+```
 1. Start the program.
 2. Read input & build linked list.
 3. If pos >= 0, link last node to pos node.
@@ -210,15 +208,14 @@ If there is no cycle, the program should return null without modifying the linke
 7. Find index of that node in nodeList. 
 8. Print "tail connects to node index X".
 9. Stop the program.
-   
+```
 ## Program:
-
 ```
 /*
 program that detects a cycle in a linked list and returns the node where the cycle begins.
 If there is no cycle, the program should return null without modifying the linked list.
-Developed by: SANJEEV RAJ.S
-RegisterNumber:  212223220096
+Developed by: HARISH S
+RegisterNumber:  212223230071
 */
 
 import java.util.*;
@@ -308,6 +305,7 @@ public class Solution {
         }
     }
 }
+
 ```
 
 ## Output:
@@ -319,13 +317,13 @@ The program successfully detects whether a cycle exists in the linked list.
 If a cycle is present, it correctly identifies and returns the node where the cycle begins.
 
 # Ex9 Finding the Longest Length of Nested Set in a Permutation Array
-
+## DATE:  03/09/25
 ## AIM:
 To write a program that finds the length of the longest set s[k] defined as s[k] = { nums[k], nums[nums[k]], nums[nums[nums[k]]], … },where the iteration stops before a duplicate element occurs.
 
 The task is to return the maximum size among all such sets.
 ## Algorithm
-
+```
 1.Start the program.
 2.Input: An array nums representing a permutation of the numbers from 0 to n - 1.
 3.Initialize a boolean array visited[] of size n to keep track of visited elements.
@@ -336,14 +334,14 @@ The task is to return the maximum size among all such sets.
       iii. Count the number of steps taken.
       iv. Update maxLength if the current count is greater than the existing value.
  6.Output the value of maxLength. End the program.
+```
 
 ## Program:
-
 ```
 /*
 Program to find the Longest Length of Nested Set in a Permutation Array
-Developed by: SANJEEV RAJ.S
-RegisterNumber:  212223220096
+Developed by: HARISH S
+RegisterNumber:  212223230071
 */
 
 import java.util.*;
@@ -393,25 +391,24 @@ class Solution {
 ## Result:
 The program successfully computes the longest length of the nested set s[k] for the given permutation array.
 
-# EX 10 Flattening a Nested List Using an Iterator
-
+# Flattening a Nested List Using an Iterator
+## DATE: 05/09/25
 ## AIM:
 To design and implement a class NestedIterator that flattens a nested list of integers such that all integers can be accessed sequentially using an iterator interface (next() and hasNext()).
 ## Algorithm
-
 1. Start the program.
 2. Parse string input into nested structure using stack.
 3. Recursively flatten nested lists into a single list.
 4. Use an iterator with pointer position to return elements sequentially.
 5. Output final flattened list.
-6.  Stop the program.
+6.  Stop the program.   
 
 ## Program:
 ```
 /*
 Program to find Flattening a Nested List Using an Iterator
-Developed by: SANJEEV RAJ.S
-RegisterNumber:  212223220096
+Developed by: HARISH S
+Register Number: 212223230071
 */
 
 import java.util.*;
@@ -538,3 +535,6 @@ class SimpleNestedInteger implements NestedInteger {
 
 ## Result:
 The NestedIterator class successfully flattens a nested list of integers into a single list and provides sequential access using standard iterator methods.
+
+## Result:
+Thus, the C program to perfom right rotation on linked list is implemented successfully.
