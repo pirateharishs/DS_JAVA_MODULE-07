@@ -5,7 +5,7 @@ To write a program that finds the length of the longest set s[k] defined as s[k]
 
 The task is to return the maximum size among all such sets.
 ## Algorithm
-```
+
 1.Start the program.
 2.Input: An array nums representing a permutation of the numbers from 0 to n - 1.
 3.Initialize a boolean array visited[] of size n to keep track of visited elements.
@@ -16,7 +16,7 @@ The task is to return the maximum size among all such sets.
       iii. Count the number of steps taken.
       iv. Update maxLength if the current count is greater than the existing value.
  6.Output the value of maxLength. End the program.
-  ```
+
 
 ## Program:
 ```
