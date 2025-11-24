@@ -18,8 +18,8 @@ Display the rotated linked list.
 ```
 /*
 Program to  Right Rotation LinkedList
-Developed by: DAISY R
-RegisterNumber:  212223220016
+Developed by: HARISH S
+RegisterNumber:  212223230071
 */
 
 import java.util.Scanner;
