@@ -1,4 +1,3 @@
-
 # Ex6 Right Rotation LinkedList
 ## DATE:03/09/2025
 ## AIM:
